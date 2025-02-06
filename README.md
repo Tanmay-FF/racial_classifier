@@ -151,7 +151,7 @@ python evaluation.py --root_dir "path_to_your_images" --model_path "path_to_your
 ```
 
 This script will compare the performance of your model on the validation dataset. A sample HTML report is shown below for your reference:
-[Results](docs/sample_result.jpeg)
+[Results] (docs/sample_result.jpeg)
 
 ---
 
