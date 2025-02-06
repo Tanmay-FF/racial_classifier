@@ -150,7 +150,8 @@ We also compare the performance of the trained model with an existing **producti
 python evaluation.py --root_dir "path_to_your_images" --model_path "path_to_your_model.pth" --output_csv "output_results.csv" --output_html "output_report.html"
 ```
 
-This script will compare the performance of your model on the validation dataset.
+This script will compare the performance of your model on the validation dataset. A sample HTML report is shown below for your reference:
+[Results](docs/sample_result.jpeg)
 
 ---
 
