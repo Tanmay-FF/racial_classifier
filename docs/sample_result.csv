@@ -1,0 +1,11 @@
+img_path,original_label,predicted_label
+T:\GAC\racial_classifier\sample_images\asian\1\000000_00@en_face{4FF6F1BD-BAA9-4815-9B49-B5A43F84B83F}.png,asian,asian
+T:\GAC\racial_classifier\sample_images\asian\1\000002_00@zh_face{82116371-2202-49C7-9FB8-41B97171A9A3}.png,asian,asian
+T:\GAC\racial_classifier\sample_images\black\1\4-FaceId-0_align_face{66079D53-1425-4A5F-8431-C1C52CCECFDC}.png,black,black
+T:\GAC\racial_classifier\sample_images\black\1\9-FaceId-0_align_face{054CDDDD-4F25-49EC-85F1-C10F587DE64D}.png,black,black
+T:\GAC\racial_classifier\sample_images\indian\1\000002_00@en_face{47CC9091-2413-4D9B-945A-EE13BBFE52CE}.png,indian,indian
+T:\GAC\racial_classifier\sample_images\indian\1\000006_00@en_face{6E8BD491-03E7-4376-9E9F-BD172894E101}.png,indian,indian
+T:\GAC\racial_classifier\sample_images\latino_hispanic\1\27.Axel-Cabrera_face{8E5FA3A7-2167-4259-BADC-A0702F714C83}.png,latino_hispanic,latino_hispanic
+T:\GAC\racial_classifier\sample_images\latino_hispanic\1\48.201512101326484107854_face{D1CABA22-DA6D-4AF1-87F4-FFC7EDCC2AE0}.png,latino_hispanic,latino_hispanic
+T:\GAC\racial_classifier\sample_images\white\1\21-FaceId-0_align_face{C57DC076-5625-4C68-ADA5-6DDB44B4E35B}.png,white,white
+T:\GAC\racial_classifier\sample_images\white\1\7-FaceId-0_align_face{35900133-827E-4899-B784-C57AF519DFC1}.png,white,white
