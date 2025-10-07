@@ -156,6 +156,60 @@ This script will compare the performance of your model on the validation dataset
 
 ---
 
+## 🚀 Running Inference
+
+If you want to  directly run the inference, two scripts are available for predicting race labels from a folder of images:
+
+black_race_classifier_inference.py — Classifies images into Black / Other categories.
+
+race_classifier_inference_all_classes.py — Classifies images into five race categories: Asian, Black, Indian, White, Latino Hispanic.
+
+### **Example — Black Race Classifier**
+
+```bash
+python code/black_race_classifier_inference.py \
+    --root_dir "D:/GAC/racial_classifier/sample_images" \
+    --model_path "models/black_classifier.pth" \
+    --output_csv "inference_results/black_classifier_predictions.csv"
+```
+
+This will run the **Black race classifier** on all images in the given folder and save results to `inference_results/black_classifier_predictions.csv`.
+
+---
+
+### **Example — Race Classifier for All Classes**
+
+```bash
+python code/race_classifier_inference_all_classes.py \
+    --root_dir "D:/GAC/racial_classifier/sample_images" \
+    --model_path "models/race_classifier.pth" \
+    --output_csv "inference_results/race_classifier_predictions.csv"
+```
+This will run the **multi-class race classifier** and save predictions to `inference_results/race_classifier_predictions.csv`.
+
+## 💡 Notes
+
+* Ensure your `--root_dir` contains images or subdirectories with images.
+* Large models should be stored in the `models` folder for easy reference.
+* Output CSV files will be saved to the path you specify in `--output_csv`.
+
+
+---
+
+
+## 📄 Output CSV Format
+
+Each output CSV file will contain:
+
+| img_path           | predicted_label |
+| ------------------ | --------------- |
+| path/to/image.jpg  | black           |
+| path/to/image2.jpg | other           |
+
+
+
+---
+
 ## Future Goals 🚀
 
 This project is continuously evolving, with plans to expand its capabilities beyond race classification. Future developments include:
