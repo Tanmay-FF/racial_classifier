@@ -160,9 +160,9 @@ This script will compare the performance of your model on the validation dataset
 
 If you want to  directly run the inference, two scripts are available for predicting race labels from a folder of images:
 
-black_race_classifier_inference.py — Classifies images into Black / Other categories.
+```black_race_classifier_inference.py``` — Classifies images into Black / Other categories.
 
-race_classifier_inference_all_classes.py — Classifies images into five race categories: Asian, Black, Indian, White, Latino Hispanic.
+```race_classifier_inference_all_classes.py``` — Classifies images into five race categories: Asian, Black, Indian, White, Latino Hispanic.
 
 ### **Example — Black Race Classifier**
 
@@ -190,9 +190,7 @@ This will run the **multi-class race classifier** and save predictions to `infer
 ## 💡 Notes
 
 * Ensure your `--root_dir` contains images or subdirectories with images.
-* Large models should be stored in the `models` folder for easy reference.
 * Output CSV files will be saved to the path you specify in `--output_csv`.
-
 
 ---
 
