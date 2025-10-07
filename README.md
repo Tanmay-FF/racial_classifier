@@ -189,8 +189,13 @@ This will run the **multi-class race classifier** and save predictions to `infer
 
 ## 💡 Notes
 
-* Ensure your `--root_dir` contains images or subdirectories with images.
-* Output CSV files will be saved to the path you specify in `--output_csv`.
+The input images provided to the inference scripts must meet the following requirements:
+
+* Dimensions: Images should be 112×112 pixels.
+
+* Alignment & Cropping: Images must be properly aligned and tightly cropped to contain only the face.
+
+* Production Detection & Alignment: Before inference, images should be processed using a production-grade face detection, cropping, and alignment pipeline to ensure high accuracy.
 
 ---
 
@@ -202,7 +207,7 @@ Each output CSV file will contain:
 | img_path           | predicted_label |
 | ------------------ | --------------- |
 | path/to/image.jpg  | black           |
-| path/to/image2.jpg | other           |
+| path/to/image2.jpg | white           |
 
 
 
