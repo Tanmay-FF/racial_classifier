@@ -20,6 +20,10 @@ images_to_take = {
     "white": 28477,
     'latino_hispanic' : 28477
 }
+
+#identify the landmarks modek
+
+
 # Initialize a list to hold image paths and their labels
 data = []
 

@@ -210,10 +210,10 @@ import argparse
 # Set up argument parser
 def parse_arguments():
     parser = argparse.ArgumentParser(description="Face recognition classification script.")
-    parser.add_argument('--root_dir', type=str, default=r"T:\GAC\racial_classifier\sample_images", help='Root directory for image dataset')
-    parser.add_argument('--model_path', type=str, default=r"T:\GAC\demographic_classifier\dataset-training\FaceArg_downloadLatino_FairFaceLatino_Combined_Round_6_with_allRace_from_UTK\best_model_2.pth", help='Path to the trained model')
-    parser.add_argument('--output_csv', type=str, default="sample_result.csv", help='Output CSV file to store results')
-    parser.add_argument('--output_html', type=str, default="sample_result.html", help='Output HTML file to store results')
+    parser.add_argument('--root_dir', type=str, default=r"sample_images", help='Root directory for image dataset')
+    parser.add_argument('--model_path', type=str, default=r"models\racial_classifier_5classes.pth", help='Path to the trained model')
+    parser.add_argument('--output_csv', type=str, default=r"inference_results\sample_result.csv", help='Output CSV file to store results')
+    parser.add_argument('--output_html', type=str, default=r"inference_results\sample_result.html", help='Output HTML file to store results')
 
     return parser.parse_args()
 
